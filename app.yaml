@@ -13,6 +13,7 @@ handlers:
 
 - url: /.*
   script: guestbook.app
+  login: required
 # [END handlers]
 
 # [START libraries]
